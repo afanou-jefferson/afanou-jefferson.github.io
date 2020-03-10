@@ -1,0 +1,22 @@
+{
+  "short_name": "Portfolio app",
+  "name": "Portfolio app",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "homepage": "https://afanou-jefferson.github.io",
+  "scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"deploy": "gh-pages -d build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"}
+}
