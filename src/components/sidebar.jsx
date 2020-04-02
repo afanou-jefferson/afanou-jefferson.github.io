@@ -7,7 +7,7 @@ export default class Sidebar extends Component {
       <div>
         <div>
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
-          <aside id="colorlib-aside" className="border js-fullheight">
+          <aside id="colorlib-aside" className="border js-fullheight" style={{overflow: "hidden"}}>
             <div className="text-center">
               <div className="author-img" style={{backgroundImage: 'url(images/photo_JA.jpg)'}} />
               <h1 id="colorlib-logo"><a href="index.html" style={{marginBottom: "5%"}}>Jefferson Afanou</a></h1>
@@ -17,16 +17,16 @@ export default class Sidebar extends Component {
               <div id="navbar" className="collapse" style={{marginTop: "5%"}}>
                 <ul>
                   <li className="active"><a href="#home" data-nav-section="home">Présensation</a></li>
-                  <li><a href="#about" data-nav-section="about"></a></li>
-                  {/*<li><a href="#" data-nav-section="projects">Projects</a></li>*/}
-                  <li><a href="#timeline" data-nav-section="timeline">Mon parcours</a></li>
+                  {/*<li><a href="#about" data-nav-section="about"></a></li>*/}
+                  <li><a href="#timeline" data-nav-section="timeline">Parcours</a></li>
+                  <li><a href="#projects" data-nav-section="projects">Réalisations</a></li>
                 </ul>
               </div>
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
                 <li><a href="https://www.linkedin.com/in/jefferson-afanou/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
-                <li><a href="https://github.com/Jefferson-Afanou" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+                <li><a href="https://github.com/afanou-jefferson" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer" style={{position: "absolute", bottom:0}}>

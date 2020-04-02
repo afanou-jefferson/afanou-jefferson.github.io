@@ -13,9 +13,10 @@ export default class Introduction extends Component {
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
-                        <div className="desc">
-                          <h1>Bonjour, <br />Je m'appelle Jefferson</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/open?id=1dEHKmph29u0bOo4IXKTtsYCx-xdlCp_d" target="_blank" rel="noopener noreferrer">Voir mon CV  <i className="icon-download4" /></a></p>
+                        <div className="desc" style={{marginTop:"30%"}}>
+                          <h1 style={{marginBottom:0}}>Bonjour, <br />Je m'appelle Jefferson</h1>
+                          <p>(Et la feuille blanche à côté, c'est moi.)</p>
+                          <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/open?id=1dEHKmph29u0bOo4IXKTtsYCx-xdlCp_d" target="_blank" rel="noopener noreferrer" style={{marginTop: "5%"}}>Voir mon CV  <i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
@@ -28,9 +29,9 @@ export default class Introduction extends Component {
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
-                        <div className="desc">
-                          <h1>Vous cherchez des lignes de codes ?</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://github.com/Jefferson-Afanou" target="_blank" rel="noopener noreferrer">Voir mon Github  <i className="icon-github"/></a></p>
+                        <div className="desc" style={{marginTop:"30%"}}>
+                          <h1>Vous cherchez du code ?</h1>
+                          <p><a className="btn btn-primary btn-learn" href="https://github.com/afanou-jefferson" target="_blank" rel="noopener noreferrer">Voir mon Github<i className="icon-github"/></a></p>
                         </div>
                       </div>
                     </div>
