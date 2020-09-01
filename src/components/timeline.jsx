@@ -28,8 +28,8 @@ export default class Timeline extends Component {
                         des tests et de l'intégration continue, ainsi que les pratiques de gestion de projet agile dans un contexte Scrum sont également abordés.</p>
                         <p style={{ marginBottom: 0 }}> <strong>Réalisations :</strong>  </p>
                         <ul>
-                          <li><a href="https://github.com/afanou-jefferson/JS-Training"> Calculatrice basique en JS </a>  ( JavaScript / HTML / CSS ) </li>
-                          <li><a href="https://github.com/afanou-jefferson/Bootstrap-Training">Site de voyage en Bootstrap</a>  ( HTML / CSS / Bootstrap ) </li>
+                          <li><a href="https://afanou-jefferson.github.io/JS-Training/"> Calculatrice basique en JS </a>  ( JavaScript / HTML / CSS ) </li>
+                          <li><a href="https://afanou-jefferson.github.io/Bootstrap-Training/">Site de voyage en Bootstrap</a>  ( HTML / CSS / Bootstrap ) </li>
                           <li><a href="https://github.com/afanou-jefferson/JPA-OpenFoodFacts">App Java de traitement de fichier</a>  ( Java / JPA / Hibernate / MySQL )</li>
                         </ul>
                         <p style={{ textAlign: "right" }}><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1XGQFyvsKrR7uRYWwfjjIBT5u3BQ9GT8u/view?usp=sharing" target="_blank" rel="noopener noreferrer">Plus d'informations <i className="icon-download4" /></a></p>
