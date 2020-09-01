@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {BsArrowBarRight} from 'react-icons/bs'
 
 export default class About extends Component {
   render() {
@@ -13,9 +14,9 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">À mon propos ...</span>
                     <h2 className="colorlib-heading">Qui suis-je ?</h2>
-                    <p>Âge de 24ans, voilà 5 années que je navigue entre l'IT et le Digital. <br></br>
-                        Geek invétéré, j'ai commencé mes études supérieures par un DUT Informatique pour ensuite développer une double compétence en école de commerce. <br></br>
-                        Fraîchement diplômé d'un Master en Marketing Digital, j'aspire désormais à "revenir aux sources" en me recentrant sur le développement Web.</p>
+                    <p>Âgé de 24ans, voilà maintenant 5 années que je navigue entre l'IT et le Digital. <br></br>
+                        Autant geek que technophile, j'ai commencé mes études supérieures par un DUT Informatique pour ensuite développer une double compétence en école de commerce. <br></br>
+                        Fraîchement diplômé d'un Master en Marketing Digital, j'aimerais désormais "revenir aux sources" en me recentrant sur l'IT.</p>
                     </div>
                 </div>
                 </div>
@@ -38,16 +39,30 @@ export default class About extends Component {
                     <i className="icon-bulb" />
                 </span>
                 <div className="desc">
-                    <h3>Développement Web </h3>
-                    <p style={{textAlign:"justify"}}>Acquises lors de mon DUT informatique et mises en pratiques lors de mon apprentissage en tant que Responsable Web d'un site E-Commerce, je rafraîchis et améliore mes compétences quotidiennement de manière auto-didacte depuis Décembre 2019.</p>
+                    <h3>Développement</h3>
+                    <p style={{textAlign:"justify"}}>Initialement acquises lors du DUT informatique, j'oeuvre au quotidien pour réactiver et améliorer ces compétences de manière auto-didacte depuis de Décembre 2019. Cette démarche m'a alors poussée à rejoindre un cursus de formation chez Diginamic en Juin 2020.</p>
                     <p style={{marginBottom:0, textAlign:"left"}}><b>Technologies :</b></p>
                         <ul style={{ margin: "left", paddingLeft: "7%"}}>
-                            <li style={{ textAlign:"left" }}>HTML</li>
-                            <li style={{ textAlign:"left" }}>CSS</li>
-                            <li style={{ textAlign:"left" }}> WordPress </li>
+                            <li style={{ textAlign:"left" }}>HTML / CSS </li>
+                            <ul>
+                                    <li style={{ textAlign:"left" }}>Bootstrap </li>
+                                    <li style={{ textAlign:"left" }}>WordPress </li>
+                            </ul>
+                            <li style={{ textAlign:"left" }}> SQL </li>
+                            <ul>
+                                    <li style={{ textAlign:"left" }}>MySQL </li>
+                                    <li style={{ textAlign:"left" }}>PostgreSQL </li>
+                            </ul>
+                            <li style={{ textAlign:"left" }}>Java </li>
+                            <ul>
+                                    <li style={{ textAlign:"left" }}>Spring </li>
+
+                            </ul>
                             <li style={{ textAlign:"left" }}>Javascript</li>
                                 <ul>
                                     <li style={{ textAlign:"left" }}> React </li>
+                                    <li style={{ textAlign:"left" }}> Angular </li>
+                                    <li style={{ textAlign:"left" }}> NodeJS </li>
                                 </ul>
                             
                         </ul>
@@ -61,7 +76,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Web Marketing</h3>
-                    <p style={{textAlign:"justify", marginBottom:0}}>En tant que responsable Web en apprentissage pendant casiment 2 années lors de mon Master, j'ai créé (via Wordpress) et déveloper la boutique E-commerce de la marque et gérer sa communauté sur les réseaux sociaux.</p>
+                    <p style={{textAlign:"justify", marginBottom:0}}>En tant que responsable Web en apprentissage pendant 2 années lors de mon Master (en marketing digital), j'ai pu créer et déveloper la boutique E-commerce (sous Wordpress) de la marque et gérer sa communauté sur les réseaux sociaux.</p>
                     <br></br>
                     <p style={{marginBottom:0, textAlign:"left"}}><b>Chiffres clés :</b></p>
                         <ul style={{ margin: "left", paddingLeft: "7%"}}>
@@ -80,7 +95,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Conseil</h3>
-                    <p style={{textAlign:"justify", marginBottom:0}}>En tant que consultant en transformation digitale pendant 8 mois chez CGI, j'ai pratiqué et assimilé des compétences en conseil.</p>
+                    <p style={{textAlign:"justify", marginBottom:0}}>En tant que consultant en transformation digitale pendant 8 mois chez CGI, j'ai eu l'occasion d'assimiler certaines compétences en conseil.</p>
                     <br></br>
                     <p style={{marginBottom:0, textAlign:"left"}}><b>Compétences :</b></p>
                     <ul style={{ margin: "left", paddingLeft: "6%"}}>     
